@@ -1,0 +1,27 @@
+#1: openai.com
+IPv4 address
+104.18.33.45 Location: San Jose, California, United States
+172.64.154.211 Location: San Francisco, California, United States
+
+#2: github.com
+Pv4 address
+140.82.121.3 Location: San Francisco, California, United States
+
+#3 apple.com
+IPv4 address	
+17.253.144.10 Location: San Jose, California, United States
+IPv6 address
+2620:149:af0::10 Location: Cupertino, California, United States
+
+#4 netflix.com
+IPv4 address
+54.155.246.232	Location: Dublin, Leinster, Ireland
+54.73.148.110 Location: Dublin, Leinster, Ireland
+18.200.8.190 Location: Dublin, Leinster, Ireland
+
+#5: reddit.com
+IPv4 address	
+151.101.65.140	Location: San Francisco, California, United States
+151.101.193.140	Location: San Francisco, California, United States
+151.101.129.140	Location: San Francisco, California, United States
+151.101.1.140 Location: San Francisco, California, United States

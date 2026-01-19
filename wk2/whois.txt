@@ -1,0 +1,115 @@
+#1: google.com
+
+Domain:google.com
+Registered On: 1997-09-15
+Expires On: 2028-09-14
+Updated On: 2019-09-09
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+
+Registrar: MarkMonitor Inc.
+IANA ID: 292
+Email: https://www.markmonitor.com/contact-us/
+Abuse Email: abusecomplaints@markmonitor.com
+Abuse Phone: +1.2086851750
+
+#2: amazon.com
+Domain:amazon.com
+Registered On:1994-11-01
+Expires On:2026-10-31
+Updated On:
+2025-07-31
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1.amzndns.co.uk
+ns1.amzndns.com
+ns1.amzndns.net
+ns1.amzndns.org
+ns2.amzndns.co.uk
+ns2.amzndns.com
+ns2.amzndns.net
+ns2.amzndns.org
+
+Registrar:MarkMonitor Inc.
+IANA ID:292
+Email:https://www.markmonitor.com/contact-us/
+Abuse Email:abusecomplaints@markmonitor.com
+Abuse Phone:+1.2086851750
+
+#3: wikipedia.com
+Domain: wikipedia.com
+Registered On:2001-01-13
+Expires On:2027-01-10
+Updated On:2025-12-09
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+Name Servers:
+ns0.wikimedia.org
+ns1.wikimedia.org
+ns2.wikimedia.org
+
+Registrar:MarkMonitor Inc.
+IANA ID:292
+Email:https://www.markmonitor.com/contact-us/
+Abuse Email:abusecomplaints@markmonitor.com
+Abuse Phone:+1.2086851750
+
+#4: microsoft.com
+Domain:microsoft.com
+Registered On:1991-05-02
+Expires On:2026-05-03
+Updated On:2025-04-01
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1-39.azure-dns.com
+ns2-39.azure-dns.net
+ns3-39.azure-dns.org
+ns4-39.azure-dns.info
+
+Registrar:MarkMonitor Inc.
+IANA ID:292
+Email:https://www.markmonitor.com/contact-us/
+Abuse Email:abusecomplaints@markmonitor.com
+Abuse Phone: +1.2086851750
+
+#5: toronto.ca
+Domain:toronto.ca
+Registered On:2002-04-19
+Expires On:2034-04-18
+Updated On:2026-01-15
+Status:client transfer prohibited
+Name Servers:
+dns1.easydns.com
+dns2.easydns.net
+dns3.easydns.org
+dns4.easydns.info
+
+Registrar:Webnames.ca Inc.
+IANA ID:456
+URL:webnames.ca
+Abuse Email:abuse@webnames.ca
+Abuse Phone:+1.8662217878
