@@ -1,0 +1,11 @@
+sofiiabeliak@Sofiias-MacBook-Air ~ % traceroute apple.com
+traceroute to apple.com (17.253.144.10), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  5.754 ms  4.366 ms  4.224 ms
+ 2  pool-173-33-153-1.cpe.net.cable.rogers.com (173.33.153.1)  7.892 ms  9.077 ms  9.141 ms
+ 3  93-dgw01.etob.rmgt.net.rogers.com (209.148.229.109)  7.222 ms  5.220 ms  8.614 ms
+ 4  3009-cgw01.wlfdle.rmgt.net.rogers.com (69.63.248.181)  7.192 ms  8.146 ms  5.899 ms
+ 5  69.63.248.71 (69.63.248.71)  5.905 ms  8.887 ms  5.261 ms
+ 6  17.1.89.16 (17.1.89.16)  15.121 ms  6.981 ms
+    17.1.89.14 (17.1.89.14)  8.555 ms
+ 7  iworktrialbuy.apple.com (17.253.144.10)  8.264 ms !Z  8.800 ms !Z  10.632 ms !Z
+sofiiabeliak@Sofiias-MacBook-Air ~ % 
