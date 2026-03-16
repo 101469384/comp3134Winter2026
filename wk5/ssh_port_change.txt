@@ -1,0 +1,3 @@
+The SSH service was reconfigured to listen on port 2222 instead of the default port 22.
+The change was applied in /etc/ssh/sshd_config and verified by successfully connecting
+to the server using ssh -p 2222.
