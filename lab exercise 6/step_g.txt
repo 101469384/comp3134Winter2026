@@ -1,0 +1,3 @@
+The problem is: HTML comments are visible to anyone who views the page source. Sensitive information should not be placed in client-side comments.
+
+Mitigation: use server-side comments, such as PHP comments, because they are not sent to the browser and cannot be viewed in page source.

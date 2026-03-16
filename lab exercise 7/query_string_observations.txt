@@ -1,0 +1,11 @@
+1. Valid English word in the form:
+Dictionary.com accepts the word and displays the matching results page correctly.
+
+2. Invalid English word in the /browse/ section:
+Dictionary.com shows that no exact result was found or redirects to a search-related page instead of exposing any internal error.
+
+3. Entering <script>alert('hello')</script> in the form:
+The website does not execute the script. The input appears to be handled safely.
+
+4. Entering <script>alert('hello')</script> after term= in the URL:
+The script does not run. The site appears to filter or safely encode the input, which helps prevent XSS.

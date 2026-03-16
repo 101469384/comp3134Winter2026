@@ -1,0 +1,8 @@
+When I open the page with q=hello, the browser shows an error because the folder does not exist
+
+
+Issue:
+The script accepts user input directly and tries to scan that path without validation
+
+Sensitive information:
+This page may reveal server directory names and file/folder structure, which should not be exposed to users

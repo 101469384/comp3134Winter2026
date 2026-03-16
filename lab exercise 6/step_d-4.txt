@@ -1,0 +1,6 @@
+When I open the page with q=../../, the browser displays files and folders outside the intended web directory
+Issue:
+This is a directory traversal vulnerability. A user can move up directories and inspect other locations on the server
+
+Sensitive information:
+The page may expose system folders, configuration files, usernames, and internal server structure

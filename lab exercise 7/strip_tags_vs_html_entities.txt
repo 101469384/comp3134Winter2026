@@ -1,0 +1,7 @@
+strip_tags() removes HTML and script tags from user input, so the tags are deleted.
+
+htmlspecialchars() does not remove the tags. Instead, it converts special characters such as < and > into safe HTML entities like &lt; and &gt;, so the browser displays them as text instead of executing them
+
+short:
+strip_tags() removes tags
+htmlspecialchars() keeps the input visible but makes it safe to display
