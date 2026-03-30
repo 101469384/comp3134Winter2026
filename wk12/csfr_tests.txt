@@ -1,0 +1,3 @@
+The protected form works correctly when accessed normally.
+The attack page fails because it does not have the correct session token.
+This prevents CSRF attacks
