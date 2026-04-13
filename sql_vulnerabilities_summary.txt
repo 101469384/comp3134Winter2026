@@ -1,0 +1,16 @@
+SQL Vulnerabilities Summary
+
+1) Input: Ben
+Observation:
+The page returned only the active user with firstname Ben. This was expected because the SQL query searches for firstname = 'Ben' and active = 1, so the inactive Ben record was excluded.
+
+2) Input: Ben'-- 
+Observation:
+The page returned results that should not normally appear. This happened because the single quote closed the original string and the double dash commented out the rest of the SQL statement. As a result, the active = 1 condition was ignored. This shows a SQL injection vulnerability.
+
+3) Input: Ben' or 1=1 -- 
+Observation:
+The page returned many rows from the table. This happened because the injected condition OR 1=1 is always true, so the WHERE clause matched all rows. This demonstrates how unsanitized input can be used to manipulate a query and bypass intended filtering.
+
+Prepared Statement Mitigation:
+In getusers_2.php, prepared statements were used instead of directly inserting user input into the SQL query. As a result, the same SQL injection inputs did not return unintended results. The secure version treated the input as plain text, which prevented the attack.
