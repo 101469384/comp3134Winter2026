@@ -1,0 +1,7 @@
+When I open the page with q=%2e%2e%2f, the encoded characters are interpreted as ../ and the browser again displays directories outside the intended location
+
+Issue:
+The script does not validate or sanitize the input, so encoded traversal sequences also work
+
+Sensitive information:
+This can reveal internal folders and potentially sensitive server data that should not be visible to users

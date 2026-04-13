@@ -1,0 +1,11 @@
+Mitigation steps:
+
+
+1. basename() is used to reduce directory traversal risk by stripping path information from user input
+
+2. file_exists() checks whether the target actually exists
+
+3. is_dir() ensures the input refers to a directory and not some other file type
+
+
+this makes the script safer than part 1 because the user input is no longer used directly as a full path

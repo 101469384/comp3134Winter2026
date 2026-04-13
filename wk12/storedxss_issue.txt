@@ -1,0 +1,3 @@
+The application displays user input without sanitization.
+This allows execution of malicious JavaScript
+This can lead to session hijacking, redirects, or data theft
